@@ -10,11 +10,11 @@ p{
     font-size:1rem;
 }
 `
-type ButtonWrapperProps={
+type ButtonWrapperProp={
     correct:boolean;
     userClicked:boolean;
 }
-export const ButtonWrapperProps=styled.div<ButtonWrapperProps>`
+export const ButtonWrapperProps=styled.div<ButtonWrapperProp>`
 transition:all 0.3s ease;
 :hover{
     opacity: 0.8;
