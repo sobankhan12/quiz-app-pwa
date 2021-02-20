@@ -66,7 +66,7 @@ const App = () => {
     <GlobalStyle/>
     
     <Wrapper>
-      <h1 className="heading">React quiz</h1>
+      <h1 className="heading">React Quiz</h1>
       {gameOver || userAnswers.length===TOTAL_QUESTION?(
       <button className="start" onClick={startQuiz}>Start Quiz</button>):null}
       {!gameOver?(<p>Score {score}</p>):null}
